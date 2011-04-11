@@ -5,7 +5,7 @@ def read_file(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "PlacSupport",
+    name = "placsupport",
     version = "0.1dev",
     packages = find_packages(),
 
@@ -13,8 +13,8 @@ setup(
     author = "Ryan C. Thompson",
     author_email = "rct@thompsonclan.org",
     description = "Support functions for using plac",
-    license = "PSF",
-    keywords = "plac",
+    license = "BSD",
+    keywords = ("plac", "argparse"),
     #url = "http://example.com/HelloWorld/",   # project home page, if any
     long_description=read_file('README.md'),
 )
