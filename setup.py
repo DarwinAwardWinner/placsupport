@@ -17,5 +17,9 @@ setup(
     keywords = ("plac", "argparse"),
     #url = "http://example.com/HelloWorld/",   # project home page, if any
     long_description = read_file('README.md'),
-    requires = ('plac',),
+    url='https://github.com/DarwinAwardWinner/placsupport/',
+
+    # Dependencies
+    install_requires = [],
+    requires = ['plac'],
 )
