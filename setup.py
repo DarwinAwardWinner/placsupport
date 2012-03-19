@@ -16,5 +16,6 @@ setup(
     license = "BSD",
     keywords = ("plac", "argparse"),
     #url = "http://example.com/HelloWorld/",   # project home page, if any
-    long_description=read_file('README.md'),
+    long_description = read_file('README.md'),
+    requires = ('plac',),
 )
